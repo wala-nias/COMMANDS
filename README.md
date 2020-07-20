@@ -10,13 +10,17 @@ Some useful git tips and commands.
 - how to write useful commits: https://dev.to/jacobherrington/how-to-write-useful-commit-messages-my-commit-message-template-20n9
 
 ## Git Commands:
-1. Initialize a git project (to be run in the project directory)
+0. Initialize a git project (to be run in the project directory)
 ```
 git init
 ```
-2. Add multiple files for the commit
+1. Add multiple files for the commit
 ```
 git add <file1> <file2> <file3>
+```
+2. Undo git add before commit (git reset to unstage all due changes)
+```
+git reset <file>
 ```
 3. Commit the added files 
 ```
